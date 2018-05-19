@@ -1,6 +1,9 @@
 $primary-color: #108db8;
 $font-family: sans-serif;
 
+@import './grid.scss';
+@import './typo.scss';
+
 body {
   font-family: $font-family;
   font-weight: 400;
