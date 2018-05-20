@@ -1,0 +1,50 @@
+$primary: #BE3030;
+$bg: #222222;
+
+$font-family: 'IBM Plex Mono', monospace;
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,600&amp;subset=vietnamese');
+
+@import './grid.scss';
+@import './typo.scss';
+
+body {
+  font-family: $font-family;
+  background-color: $bg;
+  color: $primary;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+section {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+footer {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+
+  .built-desc {
+    display: inline-block;
+    margin-left: 6px;
+    opacity: 0.6;;
+  }
+}
+
+.container {
+  max-width: 768px;
+}
+
+.medium {
+  &--item {
+    margin-bottom: 2rem;
+  }
+  &--title {
+    text-transform: lowercase;
+  }
+  &--desc {
+    opacity: 0.6;
+    text-transform: lowercase;
+  }
+}

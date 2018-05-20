@@ -1,34 +1,34 @@
-import axios from 'axios'
-import ExtractTextPlugin from 'extract-text-webpack-plugin'
+import axios from 'axios';
+import ExtractTextPlugin from 'extract-text-webpack-plugin';
 
 export default {
   getSiteData: () => ({
-    title: 'React Static',
+    title: 'Xaolonist',
+    builtAt: '',
   }),
+
   getRoutes: async () => {
-    const { data: posts } = await axios.get('https://jsonplaceholder.typicode.com/posts')
+    const posts = await axios.get('https://medium.com/@xaolonist/latest?format=json');
+    const data = JSON.parse(posts.data.replace('])}while(1);</x>', ''));
+    const body = data.payload.references.Post;
+    const postList = Object.keys(data.payload.references.Post).map(i => {
+      const item = body[i];
+      return {
+        id: item.id,
+        title: item.title,
+        desc: item.content.subtitle,
+        link: `https://medium.com/@xaolonist/${item.uniqueSlug}`,
+        totalClapCount: item.virtuals.totalClapCount,
+        createdAt: item.createdAt,
+        updatedAt: item.updatedAt,
+      };
+    });
+
     return [
       {
         path: '/',
         component: 'src/containers/Home',
-      },
-      {
-        path: '/about',
-        component: 'src/containers/About',
-      },
-      {
-        path: '/blog',
-        component: 'src/containers/Blog',
-        getData: () => ({
-          posts,
-        }),
-        children: posts.map(post => ({
-          path: `/post/${post.id}`,
-          component: 'src/containers/Post',
-          getData: () => ({
-            post,
-          }),
-        })),
+        getData: () => ({ postList }),
       },
       {
         is404: true,
@@ -36,6 +36,7 @@ export default {
       },
     ]
   },
+
   webpack: (config, { defaultLoaders, stage }) => {
     config.module.rules = [
       {
