@@ -8,12 +8,7 @@ import './css/app.scss';
 const App = () => {
   return (
     <Router>
-      <div>
-        <h1>/whoami</h1>
-        <div>
-          <Routes />
-        </div>
-      </div>
+      <Routes />
     </Router>
   )
 };

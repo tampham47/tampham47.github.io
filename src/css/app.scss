@@ -1,13 +1,26 @@
-$primary-color: #108db8;
-$font-family: sans-serif;
+$primary: #BE3030;
+$bg: #222222;
+
+$font-family: 'IBM Plex Mono', monospace;
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,600&amp;subset=vietnamese');
 
 @import './grid.scss';
 @import './typo.scss';
 
 body {
   font-family: $font-family;
+  background-color: $bg;
+  color: $primary;
   font-weight: 400;
   font-size: 16px;
-  margin: 0;
-  padding: 0;
+}
+
+section {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.container {
+  max-width: 768px;
 }
