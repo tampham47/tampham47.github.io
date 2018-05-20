@@ -33,21 +33,28 @@ export default withRouteData(({ postList }) => {
           </li>
         </ul>
       </section>
+
       <section className="container">
         <h1>medium của tớ,</h1>
-        <ul className="medium-list">
+        <ul className="medium">
           {postList.map(post => {
             return (
-              <li key={post.id} className="medium-item">
-                <a href={post.link} target="_blank" rel="noopener noreferrer" className="medium-title">{post.title}</a>
-                <p className="medium-desc">{post.desc}</p>
+              <li key={post.id} className="medium--item">
+                <a href={post.link} target="_blank" rel="noopener noreferrer" className="medium--title">{post.title}</a>
+                <p className="medium--desc">{post.desc}</p>
               </li>
             );
           })}
         </ul>
       </section>
+
       <footer className="container">
-        <a href="">created by react-static</a>
+        <span role="img" aria-label="face">😤</span>
+        <a href="https://github.com/tampham47/xln" target="_blank" rel="noopener noreferrer">
+          created by `react-static`
+        </a>
+        <span>, </span>
+        <span className="built-desc">the lastest build on may 20th, 2018.</span>
       </footer>
     </div>
   );

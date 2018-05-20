@@ -24,21 +24,27 @@ section {
 footer {
   margin-top: 8rem;
   margin-bottom: 8rem;
+
+  .built-desc {
+    display: inline-block;
+    margin-left: 6px;
+    opacity: 0.6;;
+  }
 }
 
 .container {
   max-width: 768px;
 }
 
-.info a {
-
-}
-
-.medium-list {}
-.medium-item {
-  margin-bottom: 2rem;
-}
-.medium-title {}
-.medium-desc {
-  opacity: 0.6;
+.medium {
+  &--item {
+    margin-bottom: 2rem;
+  }
+  &--title {
+    text-transform: lowercase;
+  }
+  &--desc {
+    opacity: 0.6;
+    text-transform: lowercase;
+  }
 }
