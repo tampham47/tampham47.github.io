@@ -253,14 +253,32 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactStatic = __webpack_require__(2);
 
+var _moment = __webpack_require__(20);
+
+var _moment2 = _interopRequireDefault(_moment);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var desc = 'Pham Minh Tam - Lead of front-end at Quoine - Saigon, Vietnam.';
+
 exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
-  var postList = _ref.postList;
+  var siteData = _ref.siteData,
+      postList = _ref.postList;
 
   return _react2.default.createElement(
     'div',
     null,
+    _react2.default.createElement(
+      _reactStatic.Head,
+      null,
+      _react2.default.createElement(
+        'title',
+        null,
+        siteData.title,
+        '\'s landing page'
+      ),
+      _react2.default.createElement('meta', { name: 'description', content: desc })
+    ),
     _react2.default.createElement(
       'section',
       { className: 'container' },
@@ -365,7 +383,7 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
       'section',
       { className: 'container' },
       _react2.default.createElement(
-        'h1',
+        'h2',
         null,
         'medium c\u1EE7a t\u1EDB,'
       ),
@@ -395,12 +413,12 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
       { className: 'container' },
       _react2.default.createElement(
         'span',
-        { role: 'img', 'aria-label': 'face' },
-        '\uD83D\uDE24'
+        { role: 'img', 'aria-label': 'cat - github' },
+        '\uD83D\uDE3D'
       ),
       _react2.default.createElement(
         'a',
-        { href: 'https://github.com/tampham47/xln', target: '_blank', rel: 'noopener noreferrer' },
+        { href: 'https://github.com/tampham47/tampham47.github.io', target: '_blank', rel: 'noopener noreferrer' },
         'created by `react-static`'
       ),
       _react2.default.createElement(
@@ -411,7 +429,9 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
       _react2.default.createElement(
         'span',
         { className: 'built-desc' },
-        'the lastest build on may 20th, 2018.'
+        'the latest build is on ',
+        (0, _moment2.default)(siteData.builtAt).format('MMM DD, YYYY'),
+        '.'
       )
     )
   );
@@ -518,7 +538,7 @@ var _reactStaticRoutes = __webpack_require__(11);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
-__webpack_require__(20);
+__webpack_require__(21);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1344,9 +1364,15 @@ module.exports = require("hoist-non-react-statics");
 /* 20 */
 /***/ (function(module, exports) {
 
+module.exports = require("moment");
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports) {
+
 // removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.4f687c75.js.map
+//# sourceMappingURL=static.168d2307.js.map
