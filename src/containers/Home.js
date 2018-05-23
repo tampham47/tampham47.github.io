@@ -1,13 +1,14 @@
 import React from 'react';
 import { withRouteData, Head } from 'react-static';
+import moment from 'moment';
 
 const desc = 'Pham Minh Tam - Lead of front-end at Quoine - Saigon, Vietnam.';
 
-export default withRouteData(({ postList }) => {
+const Home = ({ postList }) => {
   return (
     <div>
       <Head>
-        <title>Xaolonist's landing page</title>
+        <title>d. xaolonist</title>
         <meta name="description" content={desc} />
       </Head>
       <section className="container">
@@ -64,4 +65,6 @@ export default withRouteData(({ postList }) => {
       </footer>
     </div>
   );
-});
+};
+
+export default withRouteData(Home);
