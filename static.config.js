@@ -1,12 +1,12 @@
 import axios from 'axios';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 
-const siteData = {
-  title: 'Xaolonist',
-  builtAt: new Date(),
-};
-
 export default {
+  getSiteData: () => {
+    return {
+      title: 'Xaolonist',
+    };
+  },
 
   getRoutes: async () => {
     const posts = await axios.get('https://medium.com/@xaolonist/latest?format=json');
@@ -29,7 +29,7 @@ export default {
       {
         path: '/',
         component: 'src/containers/Home',
-        getData: () => ({ siteData, postList }),
+        getData: () => ({ postList }),
       },
       {
         is404: true,

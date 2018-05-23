@@ -1,14 +1,13 @@
 import React from 'react';
 import { withRouteData, Head } from 'react-static';
-import moment from 'moment';
 
 const desc = 'Pham Minh Tam - Lead of front-end at Quoine - Saigon, Vietnam.';
 
-export default withRouteData(({ siteData, postList }) => {
+export default withRouteData(({ postList }) => {
   return (
     <div>
       <Head>
-        <title>{siteData.title}'s landing page</title>
+        <title>Xaolonist's landing page</title>
         <meta name="description" content={desc} />
       </Head>
       <section className="container">
@@ -61,7 +60,7 @@ export default withRouteData(({ siteData, postList }) => {
           created by `react-static`
         </a>
         <span>, </span>
-        <span className="built-desc">the latest build is on {moment(siteData.builtAt).format('MMM DD, YYYY')}.</span>
+        <span className="built-desc">the latest build is on May 23, 2018.</span>
       </footer>
     </div>
   );
