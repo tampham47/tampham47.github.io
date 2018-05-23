@@ -1,9 +1,15 @@
 import React from 'react';
-import { withRouteData } from 'react-static';
+import { withRouteData, Head } from 'react-static';
+
+const desc = 'Pham Minh Tam - Lead of front-end at Quoine - Saigon, Vietnam.';
 
 export default withRouteData(({ postList }) => {
   return (
     <div>
+      <Head>
+        <title>Xaolonist's landing page</title>
+        <meta name="description" content={desc} />
+      </Head>
       <section className="container">
         <h1>d. xaolonist</h1>
         <h4>
@@ -35,7 +41,7 @@ export default withRouteData(({ postList }) => {
       </section>
 
       <section className="container">
-        <h1>medium của tớ,</h1>
+        <h2>medium của tớ,</h2>
         <ul className="medium">
           {postList.map(post => {
             return (
@@ -49,12 +55,12 @@ export default withRouteData(({ postList }) => {
       </section>
 
       <footer className="container">
-        <span role="img" aria-label="face">😤</span>
-        <a href="https://github.com/tampham47/xln" target="_blank" rel="noopener noreferrer">
+        <span role="img" aria-label="cat - github">😽</span>
+        <a href="https://github.com/tampham47/tampham47.github.io" target="_blank" rel="noopener noreferrer">
           created by `react-static`
         </a>
         <span>, </span>
-        <span className="built-desc">the lastest build on may 20th, 2018.</span>
+        <span className="built-desc">the latest build is on May 23, 2018.</span>
       </footer>
     </div>
   );
