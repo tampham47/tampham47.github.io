@@ -253,17 +253,12 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactStatic = __webpack_require__(2);
 
-var _moment = __webpack_require__(20);
-
-var _moment2 = _interopRequireDefault(_moment);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var desc = 'Pham Minh Tam - Lead of front-end at Quoine - Saigon, Vietnam.';
 
 exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
-  var siteData = _ref.siteData,
-      postList = _ref.postList;
+  var postList = _ref.postList;
 
   return _react2.default.createElement(
     'div',
@@ -274,8 +269,7 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
       _react2.default.createElement(
         'title',
         null,
-        siteData.title,
-        '\'s landing page'
+        'Xaolonist\'s landing page'
       ),
       _react2.default.createElement('meta', { name: 'description', content: desc })
     ),
@@ -429,9 +423,7 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
       _react2.default.createElement(
         'span',
         { className: 'built-desc' },
-        'the latest build is on ',
-        (0, _moment2.default)(siteData.builtAt).format('MMM DD, YYYY'),
-        '.'
+        'the latest build is on May 23, 2018.'
       )
     )
   );
@@ -538,7 +530,7 @@ var _reactStaticRoutes = __webpack_require__(11);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
-__webpack_require__(21);
+__webpack_require__(20);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1364,15 +1356,9 @@ module.exports = require("hoist-non-react-statics");
 /* 20 */
 /***/ (function(module, exports) {
 
-module.exports = require("moment");
-
-/***/ }),
-/* 21 */
-/***/ (function(module, exports) {
-
 // removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.168d2307.js.map
+//# sourceMappingURL=static.cc3cc59c.js.map
