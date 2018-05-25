@@ -1,15 +1,20 @@
 import React from 'react';
 import { withRouteData, Head } from 'react-static';
-import moment from 'moment';
-
-const desc = 'Pham Minh Tam - Lead of front-end at Quoine - Saigon, Vietnam.';
 
 const Home = ({ postList }) => {
   return (
     <div>
       <Head>
         <title>d. xaolonist</title>
-        <meta name="description" content={desc} />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Pham Minh Tam - Lead of front-end at Quoine - Saigon, Vietnam." />
+        <meta name="keywords" content="Frontend Lead, Senior, Sai Gon, Viet Nam" />
+        <meta name="author" content="Pham Minh Tam" />
+
+        <meta property="og:title" content="d. xaolonist" />
+        <meta property="og:description" content="who is a scientist, an anthropologist, a psychologist,
+          a moralist, an alchemist..." />
+        <meta property="og:image" content="/xaolonist.png" />
       </Head>
       <section className="container">
         <h1>d. xaolonist</h1>
