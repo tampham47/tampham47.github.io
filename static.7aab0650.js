@@ -255,9 +255,7 @@ var _reactStatic = __webpack_require__(2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var desc = 'Pham Minh Tam - Lead of front-end at Quoine - Saigon, Vietnam.';
-
-exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
+var Home = function Home(_ref) {
   var postList = _ref.postList;
 
   return _react2.default.createElement(
@@ -269,9 +267,15 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
       _react2.default.createElement(
         'title',
         null,
-        'Xaolonist\'s landing page'
+        'd. xaolonist'
       ),
-      _react2.default.createElement('meta', { name: 'description', content: desc })
+      _react2.default.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }),
+      _react2.default.createElement('meta', { name: 'description', content: 'Pham Minh Tam - Lead of front-end at Quoine - Saigon, Vietnam.' }),
+      _react2.default.createElement('meta', { name: 'keywords', content: 'Frontend Lead, Senior, Sai Gon, Viet Nam' }),
+      _react2.default.createElement('meta', { name: 'author', content: 'Pham Minh Tam' }),
+      _react2.default.createElement('meta', { property: 'og:title', content: 'd. xaolonist' }),
+      _react2.default.createElement('meta', { property: 'og:description', content: 'who is a scientist, an anthropologist, a psychologist, a moralist, an alchemist...' }),
+      _react2.default.createElement('meta', { property: 'og:image', content: '/xaolonist.png' })
     ),
     _react2.default.createElement(
       'section',
@@ -427,7 +431,9 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
       )
     )
   );
-});
+};
+
+exports.default = (0, _reactStatic.withRouteData)(Home);
 
 /***/ }),
 /* 6 */
@@ -1361,4 +1367,4 @@ module.exports = require("hoist-non-react-statics");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.cc3cc59c.js.map
+//# sourceMappingURL=static.7aab0650.js.map
