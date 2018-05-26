@@ -253,183 +253,196 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactStatic = __webpack_require__(2);
 
+var _moment = __webpack_require__(20);
+
+var _moment2 = _interopRequireDefault(_moment);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Home = function Home(_ref) {
   var postList = _ref.postList;
 
   return _react2.default.createElement(
-    'div',
+    _reactStatic.SiteData,
     null,
-    _react2.default.createElement(
-      _reactStatic.Head,
-      null,
-      _react2.default.createElement(
-        'title',
-        null,
-        'd. xaolonist'
-      ),
-      _react2.default.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }),
-      _react2.default.createElement('meta', { name: 'description', content: 'Pham Minh Tam - Lead of front-end at Quoine - Saigon, Vietnam.' }),
-      _react2.default.createElement('meta', { name: 'keywords', content: 'Frontend Lead, Senior, Sai Gon, Viet Nam' }),
-      _react2.default.createElement('meta', { name: 'author', content: 'Pham Minh Tam' }),
-      _react2.default.createElement('meta', { property: 'og:title', content: 'd. xaolonist' }),
-      _react2.default.createElement('meta', { property: 'og:description', content: 'who is a scientist, an anthropologist, a psychologist, a moralist, an alchemist...' }),
-      _react2.default.createElement('meta', { property: 'og:image', content: '/xaolonist.png' })
-    ),
-    _react2.default.createElement(
-      'section',
-      { className: 'container' },
-      _react2.default.createElement(
-        'h1',
-        null,
-        'd. xaolonist'
-      ),
-      _react2.default.createElement(
-        'h4',
-        null,
-        'who is a scientist, an anthropologist, a psychologist, a moralist, an\xA0alchemist...'
-      ),
-      _react2.default.createElement(
-        'h4',
-        null,
-        'lead of front-end at quoine | saigon, viet nam.'
-      ),
-      _react2.default.createElement(
-        'ul',
+    function (_ref2) {
+      var lastBuilt = _ref2.lastBuilt;
+      return _react2.default.createElement(
+        'main',
         null,
         _react2.default.createElement(
-          'li',
-          { className: 'info' },
-          _react2.default.createElement(
-            'span',
-            { role: 'img', 'aria-label': 'pineapple' },
-            '\uD83C\uDF4D'
-          ),
-          _react2.default.createElement(
-            'a',
-            { href: 'https://www.linkedin.com/in/tam-pham-51b41192/', target: '_blank', rel: 'noopener noreferrer' },
-            'linkedin'
-          ),
-          _react2.default.createElement(
-            'span',
-            null,
-            ', '
-          ),
-          _react2.default.createElement(
-            'a',
-            { href: 'https://medium.com/@xaolonist', target: '_blank', rel: 'noopener noreferrer' },
-            'medium'
-          ),
-          _react2.default.createElement(
-            'span',
-            null,
-            ', '
-          ),
-          _react2.default.createElement(
-            'a',
-            { href: 'https://github.com/tampham47', target: '_blank', rel: 'noopener noreferrer' },
-            'github'
-          ),
-          _react2.default.createElement(
-            'span',
-            null,
-            ', '
-          ),
-          _react2.default.createElement(
-            'a',
-            { href: 'https://codepen.io/tampham47', target: '_blank', rel: 'noopener noreferrer' },
-            'codepen'
-          ),
-          _react2.default.createElement(
-            'span',
-            null,
-            ', '
-          )
-        ),
-        _react2.default.createElement(
-          'li',
+          _reactStatic.Head,
           null,
           _react2.default.createElement(
-            'span',
-            { role: 'img', 'aria-label': 'mail' },
-            '\uD83D\uDC8C'
+            'title',
+            null,
+            'd. xaolonist'
           ),
-          _react2.default.createElement(
-            'a',
-            { href: 'mailto:tampham47@live.com' },
-            'tampham47@live.com'
-          )
+          _react2.default.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }),
+          _react2.default.createElement('meta', { name: 'description', content: 'Pham Minh Tam - Lead of front-end at Quoine - Saigon, Vietnam.' }),
+          _react2.default.createElement('meta', { name: 'keywords', content: 'Frontend Lead, Senior, Sai Gon, Viet Nam' }),
+          _react2.default.createElement('meta', { name: 'author', content: 'Pham Minh Tam' }),
+          _react2.default.createElement('meta', { property: 'og:title', content: 'd. xaolonist' }),
+          _react2.default.createElement('meta', { property: 'og:description', content: 'who is a scientist, an anthropologist, a psychologist, a moralist, an alchemist...' }),
+          _react2.default.createElement('meta', { property: 'og:image', content: '/xaolonist.png' })
         ),
         _react2.default.createElement(
-          'li',
-          null,
+          'section',
+          { className: 'container' },
           _react2.default.createElement(
-            'span',
-            { role: 'img', 'aria-label': 'phone' },
-            '\uD83E\uDD19\uD83C\uDFFF'
+            'h1',
+            null,
+            'd. xaolonist'
           ),
           _react2.default.createElement(
-            'a',
-            { href: 'tel:01643652922' },
-            '01643-652-922'
-          )
-        )
-      )
-    ),
-    _react2.default.createElement(
-      'section',
-      { className: 'container' },
-      _react2.default.createElement(
-        'h2',
-        null,
-        'medium c\u1EE7a t\u1EDB,'
-      ),
-      _react2.default.createElement(
-        'ul',
-        { className: 'medium' },
-        postList.map(function (post) {
-          return _react2.default.createElement(
-            'li',
-            { key: post.id, className: 'medium--item' },
+            'h4',
+            null,
+            'who is a scientist, an anthropologist, a psychologist, a moralist, an\xA0alchemist...'
+          ),
+          _react2.default.createElement(
+            'h4',
+            null,
+            'lead of front-end at quoine | saigon, viet nam.'
+          ),
+          _react2.default.createElement(
+            'ul',
+            null,
             _react2.default.createElement(
-              'a',
-              { href: post.link, target: '_blank', rel: 'noopener noreferrer', className: 'medium--title' },
-              post.title
+              'li',
+              { className: 'info' },
+              _react2.default.createElement(
+                'span',
+                { role: 'img', 'aria-label': 'pineapple' },
+                '\uD83C\uDF4D'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: 'https://www.linkedin.com/in/tam-pham-51b41192/', target: '_blank', rel: 'noopener noreferrer' },
+                'linkedin'
+              ),
+              _react2.default.createElement(
+                'span',
+                null,
+                ', '
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: 'https://medium.com/@xaolonist', target: '_blank', rel: 'noopener noreferrer' },
+                'medium'
+              ),
+              _react2.default.createElement(
+                'span',
+                null,
+                ', '
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: 'https://github.com/tampham47', target: '_blank', rel: 'noopener noreferrer' },
+                'github'
+              ),
+              _react2.default.createElement(
+                'span',
+                null,
+                ', '
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: 'https://codepen.io/tampham47', target: '_blank', rel: 'noopener noreferrer' },
+                'codepen'
+              ),
+              _react2.default.createElement(
+                'span',
+                null,
+                ', '
+              )
             ),
             _react2.default.createElement(
-              'p',
-              { className: 'medium--desc' },
-              post.desc
+              'li',
+              null,
+              _react2.default.createElement(
+                'span',
+                { role: 'img', 'aria-label': 'mail' },
+                '\uD83D\uDC8C'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: 'mailto:tampham47@live.com' },
+                'tampham47@live.com'
+              )
+            ),
+            _react2.default.createElement(
+              'li',
+              null,
+              _react2.default.createElement(
+                'span',
+                { role: 'img', 'aria-label': 'phone' },
+                '\uD83E\uDD19\uD83C\uDFFF'
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: 'tel:01643652922' },
+                '01643-652-922'
+              )
             )
-          );
-        })
-      )
-    ),
-    _react2.default.createElement(
-      'footer',
-      { className: 'container' },
-      _react2.default.createElement(
-        'span',
-        { role: 'img', 'aria-label': 'cat - github' },
-        '\uD83D\uDE3D'
-      ),
-      _react2.default.createElement(
-        'a',
-        { href: 'https://github.com/tampham47/tampham47.github.io', target: '_blank', rel: 'noopener noreferrer' },
-        'created by `react-static`'
-      ),
-      _react2.default.createElement(
-        'span',
-        null,
-        ', '
-      ),
-      _react2.default.createElement(
-        'span',
-        { className: 'built-desc' },
-        'the latest build is on May 23, 2018.'
-      )
-    )
+          )
+        ),
+        _react2.default.createElement(
+          'section',
+          { className: 'container' },
+          _react2.default.createElement(
+            'h2',
+            null,
+            'medium c\u1EE7a t\u1EDB,'
+          ),
+          _react2.default.createElement(
+            'ul',
+            { className: 'medium' },
+            postList.map(function (post) {
+              return _react2.default.createElement(
+                'li',
+                { key: post.id, className: 'medium--item' },
+                _react2.default.createElement(
+                  'a',
+                  { href: post.link, target: '_blank', rel: 'noopener noreferrer', className: 'medium--title' },
+                  post.title
+                ),
+                _react2.default.createElement(
+                  'p',
+                  { className: 'medium--desc' },
+                  post.desc
+                )
+              );
+            })
+          )
+        ),
+        _react2.default.createElement(
+          'footer',
+          { className: 'container' },
+          _react2.default.createElement(
+            'span',
+            { role: 'img', 'aria-label': 'cat - github' },
+            '\uD83D\uDE3D'
+          ),
+          _react2.default.createElement(
+            'a',
+            { href: 'https://github.com/tampham47/tampham47.github.io', target: '_blank', rel: 'noopener noreferrer' },
+            'created by `react-static`'
+          ),
+          _react2.default.createElement(
+            'span',
+            null,
+            ', '
+          ),
+          _react2.default.createElement(
+            'span',
+            { className: 'built-desc' },
+            'the latest build is on ',
+            (0, _moment2.default)(lastBuilt).format('MMM DD, YYYY'),
+            '.'
+          )
+        )
+      );
+    }
   );
 };
 
@@ -454,12 +467,16 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 exports.default = function () {
   return _react2.default.createElement(
-    'div',
+    "section",
     null,
     _react2.default.createElement(
-      'h1',
-      null,
-      '404 - Oh no\'s! We couldn\'t find that page :('
+      "div",
+      { className: "container" },
+      _react2.default.createElement(
+        "h4",
+        null,
+        "404 - Oh no's! We couldn't find that page :("
+      )
     )
   );
 };
@@ -536,7 +553,7 @@ var _reactStaticRoutes = __webpack_require__(11);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
-__webpack_require__(20);
+__webpack_require__(21);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1362,9 +1379,15 @@ module.exports = require("hoist-non-react-statics");
 /* 20 */
 /***/ (function(module, exports) {
 
+module.exports = require("moment");
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports) {
+
 // removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.7aab0650.js.map
+//# sourceMappingURL=static.2e67bef6.js.map

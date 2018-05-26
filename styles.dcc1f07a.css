@@ -1,0 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,600&amp;subset=vietnamese);/*!
+ * Bootstrap Grid v4.0.0 (https://getbootstrap.com)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */@-ms-viewport{width:device-width}html{box-sizing:border-box;-ms-overflow-style:scrollbar}*,:after,:before{box-sizing:inherit}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}.container-fluid{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}h1,h2,h3,h4,h5,h6{font-weight:400;margin-top:1em;margin-bottom:1em}a{color:#be3030;text-decoration:none}a:hover{text-decoration:underline;color:#ff7100}ul{padding:0;list-style-type:none}body{font-family:IBM Plex Mono,monospace;background-color:#222;color:#be3030;font-weight:400;font-size:16px}section{margin-top:4rem;margin-bottom:4rem}footer{margin-top:8rem;margin-bottom:8rem}footer .built-desc{display:inline-block;margin-left:6px;opacity:.6}.container{max-width:768px}.medium--item{margin-bottom:2rem}.medium--desc,.medium--title{text-transform:lowercase}.medium--desc{opacity:.6}
+/*# sourceMappingURL=styles.dcc1f07a.css.map*/
