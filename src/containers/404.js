@@ -2,8 +2,10 @@ import React from 'react';
 
 export default () => {
   return (
-    <div>
-      <h1>404 - Oh no's! We couldn't find that page :(</h1>
-    </div>
+    <section>
+      <div className="container">
+        <h4>404 - Oh no's! We couldn't find that page :(</h4>
+      </div>
+    </section>
   );
 };

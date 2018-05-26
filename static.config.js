@@ -2,11 +2,9 @@ import axios from 'axios';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 
 export default {
-  getSiteData: () => {
-    return {
-      title: 'Xaolonist',
-    };
-  },
+  getSiteData: () => ({
+    lastBuilt: Date.now(),
+  }),
 
   getRoutes: async () => {
     const posts = await axios.get('https://medium.com/@xaolonist/latest?format=json');
