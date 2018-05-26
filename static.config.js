@@ -3,7 +3,7 @@ import ExtractTextPlugin from 'extract-text-webpack-plugin';
 
 export default {
   getSiteData: () => ({
-    title: 'Xaolonist',
+    lastBuilt: Date.now(),
   }),
 
   getRoutes: async () => {
