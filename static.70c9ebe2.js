@@ -403,8 +403,14 @@ var Home = function Home(_ref) {
                 { key: post.id, className: 'medium--item' },
                 _react2.default.createElement(
                   'a',
-                  { href: post.link, target: '_blank', rel: 'noopener noreferrer', className: 'medium--title' },
+                  { href: post.link, target: '_blank', className: 'medium--title' },
                   post.title
+                ),
+                ',',
+                _react2.default.createElement(
+                  'small',
+                  { className: 'medium--time' },
+                  (0, _moment2.default)(post.createdAt).format('MMM DD, YYYY')
                 ),
                 _react2.default.createElement(
                   'p',
@@ -1390,4 +1396,4 @@ module.exports = require("moment");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.2e67bef6.js.map
+//# sourceMappingURL=static.70c9ebe2.js.map
