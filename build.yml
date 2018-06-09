@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - START_TIME=$(date +%s)
+      - yarn
+
+  build:
+    commands:
+      - yarn run deploy
