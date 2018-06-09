@@ -4,6 +4,7 @@ phases:
   install:
     commands:
       - START_TIME=$(date +%s)
+      - npm install -g yarn
       - yarn
 
   build:
