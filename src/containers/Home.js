@@ -56,7 +56,8 @@ const Home = ({ postList }) => {
               {postList.map(post => {
                 return (
                   <li key={post.id} className="medium--item">
-                    <a href={post.link} target="_blank" rel="noopener noreferrer" className="medium--title">{post.title}</a>
+                    <a href={post.link} target="_blank" className="medium--title">{post.title}</a>,
+                    <small className="medium--time">{moment(post.createdAt).format('MMM DD, YYYY')}</small>
                     <p className="medium--desc">{post.desc}</p>
                   </li>
                 );
