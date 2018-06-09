@@ -9,4 +9,5 @@ phases:
 
   build:
     commands:
+      - export GITHUB_TOKEN=042861227e38cc42e91b87368a77fd2502a39a2f
       - yarn run deploy
