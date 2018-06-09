@@ -71,7 +71,9 @@ const Home = ({ postList }) => {
               created by `react-static`
             </a>
             <span>, </span>
-            <span className="built-desc">the latest build is on {moment(lastBuilt).format('MMM DD, YYYY')}.</span>
+            <span className="built-desc">
+              the latest build is on {moment(lastBuilt).format('MMM DD, h:mm:ss a').toLowerCase()}.
+            </span>
           </footer>
         </main>
       )}
