@@ -279,12 +279,30 @@ var Home = function Home(_ref) {
             'd. xaolonist'
           ),
           _react2.default.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }),
-          _react2.default.createElement('meta', { name: 'description', content: 'Pham Minh Tam - Lead of front-end at Quoine - Saigon, Vietnam.' }),
+          _react2.default.createElement('meta', { name: 'description', content: 'Pham Minh Tam - Head of front-end at Quoine - Saigon, Vietnam.' }),
           _react2.default.createElement('meta', { name: 'keywords', content: 'Frontend Lead, Senior, Sai Gon, Viet Nam' }),
           _react2.default.createElement('meta', { name: 'author', content: 'Pham Minh Tam' }),
           _react2.default.createElement('meta', { property: 'og:title', content: 'd. xaolonist' }),
           _react2.default.createElement('meta', { property: 'og:description', content: 'who is a scientist, an anthropologist, a psychologist, a moralist, an alchemist...' }),
-          _react2.default.createElement('meta', { property: 'og:image', content: '/xaolonist.png' })
+          _react2.default.createElement('meta', { property: 'og:image', content: '/apple-icon-180x180.png' }),
+          _react2.default.createElement('link', { rel: 'apple-touch-icon', sizes: '57x57', href: '/apple-icon-57x57.png' }),
+          _react2.default.createElement('link', { rel: 'apple-touch-icon', sizes: '60x60', href: '/apple-icon-60x60.png' }),
+          _react2.default.createElement('link', { rel: 'apple-touch-icon', sizes: '72x72', href: '/apple-icon-72x72.png' }),
+          _react2.default.createElement('link', { rel: 'apple-touch-icon', sizes: '76x76', href: '/apple-icon-76x76.png' }),
+          _react2.default.createElement('link', { rel: 'apple-touch-icon', sizes: '114x114', href: '/apple-icon-114x114.png' }),
+          _react2.default.createElement('link', { rel: 'apple-touch-icon', sizes: '120x120', href: '/apple-icon-120x120.png' }),
+          _react2.default.createElement('link', { rel: 'apple-touch-icon', sizes: '144x144', href: '/apple-icon-144x144.png' }),
+          _react2.default.createElement('link', { rel: 'apple-touch-icon', sizes: '152x152', href: '/apple-icon-152x152.png' }),
+          _react2.default.createElement('link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-icon-180x180.png' }),
+          _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/android-icon-192x192.png' }),
+          _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }),
+          _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '96x96', href: '/favicon-96x96.png' }),
+          _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }),
+          _react2.default.createElement('link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }),
+          _react2.default.createElement('link', { rel: 'manifest', href: '/manifest.json' }),
+          _react2.default.createElement('meta', { name: 'msapplication-TileColor', content: '#ffffff' }),
+          _react2.default.createElement('meta', { name: 'msapplication-TileImage', content: '/ms-icon-144x144.png' }),
+          _react2.default.createElement('meta', { name: 'theme-color', content: '#ffffff' })
         ),
         _react2.default.createElement(
           'section',
@@ -302,7 +320,7 @@ var Home = function Home(_ref) {
           _react2.default.createElement(
             'h4',
             null,
-            'lead of front-end at quoine | saigon, viet nam.'
+            'head of front-end at quoine | saigon, viet nam.'
           ),
           _react2.default.createElement(
             'ul',
@@ -645,7 +663,7 @@ var universalOptions = {
 
 var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/Home',
-  file: '/codebuild/output/src039012246/src/github.com/tampham47/tampham47.github.io/dist/react-static-routes.js',
+  file: '/codebuild/output/src708968605/src/github.com/tampham47/tampham47.github.io/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 5)), (0, _importCss3.default)('src/containers/Home', {
       disableWarnings: true
@@ -665,7 +683,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/404',
-  file: '/codebuild/output/src039012246/src/github.com/tampham47/tampham47.github.io/dist/react-static-routes.js',
+  file: '/codebuild/output/src708968605/src/github.com/tampham47/tampham47.github.io/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 6)), (0, _importCss3.default)('src/containers/404', {
       disableWarnings: true
@@ -1396,4 +1414,4 @@ module.exports = require("moment");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.3a0b74e4.js.map
+//# sourceMappingURL=static.e0a28721.js.map
