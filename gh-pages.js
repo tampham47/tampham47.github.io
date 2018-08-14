@@ -1,4 +1,7 @@
+import dotenv from 'dotenv';
 import ghpages from 'gh-pages';
+
+dotenv.config();
 
 /* eslint-disable */
 ghpages.publish('dist', {
