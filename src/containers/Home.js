@@ -15,8 +15,8 @@ const Home = ({ postList }) => {
             <meta name="author" content="Pham Minh Tam" />
 
             <meta property="og:title" content="d. xaolonist" />
-            <meta property="og:description" content="who is a scientist, an anthropologist, a psychologist,
-              a moralist, an alchemist..." />
+            <meta property="og:description"
+              content="who is a scientist, an anthropologist, a psychologist, a moralist, an alchemist..." />
             <meta property="og:image" content="/apple-icon-180x180.png" />
 
             <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
