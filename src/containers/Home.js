@@ -46,7 +46,9 @@ const Home = ({ postList }) => {
           </Head>
 
           <section className="container">
-            <h1>d. xaolonist</h1>
+            <h1 className="xln">
+              <div>d. xaolonist</div>
+            </h1>
             <h4>
               who is a scientist, an anthropologist, a psychologist,
               a moralist, an alchemist...

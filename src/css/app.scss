@@ -30,6 +30,15 @@ footer {
   }
 }
 
+.xln {
+  background: url("/img/galaxy.jpg");
+}
+.xln div {
+  color: white;
+  background: $bg;
+  mix-blend-mode: multiply;
+}
+
 .container {
   max-width: 768px;
 }
