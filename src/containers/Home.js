@@ -46,12 +46,14 @@ const Home = ({ postList }) => {
           </Head>
 
           <section className="container">
-            <h1>d. xaolonist</h1>
+            <h1 className="xln">
+              <div>d. xaolonist</div>
+            </h1>
             <h4>
               who is a scientist, an anthropologist, a psychologist,
-              a moralist, an&nbsp;alchemist...
+              a moralist, an alchemist...
+              i am also a head of front-end team at quoine, saigon, viet&nbsp;nam.
             </h4>
-            <h4>head of front-end at quoine | saigon, viet nam.</h4>
             <ul>
               <li className="info">
                 <span role="img" aria-label="pineapple">🍍</span>
