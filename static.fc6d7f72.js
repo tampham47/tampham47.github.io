@@ -313,18 +313,17 @@ var Home = function Home(_ref) {
           { className: 'container' },
           _react2.default.createElement(
             'h1',
-            null,
-            'd. xaolonist'
+            { className: 'xln' },
+            _react2.default.createElement(
+              'div',
+              null,
+              'd. xaolonist'
+            )
           ),
           _react2.default.createElement(
             'h4',
             null,
-            'who is a scientist, an anthropologist, a psychologist, a moralist, an\xA0alchemist...'
-          ),
-          _react2.default.createElement(
-            'h4',
-            null,
-            'head of front-end at quoine | saigon, viet nam.'
+            'who is a scientist, an anthropologist, a psychologist, a moralist, an alchemist... i am also a head of front-end team at quoine, saigon, viet\xA0nam.'
           ),
           _react2.default.createElement(
             'ul',
@@ -667,7 +666,7 @@ var universalOptions = {
 
 var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/Home',
-  file: '/codebuild/output/src367052251/src/github.com/tampham47/tampham47.github.io/dist/react-static-routes.js',
+  file: '/Users/xalonist/projects/xaolonist/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 5)), (0, _importCss3.default)('src/containers/Home', {
       disableWarnings: true
@@ -687,7 +686,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/404',
-  file: '/codebuild/output/src367052251/src/github.com/tampham47/tampham47.github.io/dist/react-static-routes.js',
+  file: '/Users/xalonist/projects/xaolonist/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 6)), (0, _importCss3.default)('src/containers/404', {
       disableWarnings: true
@@ -1418,4 +1417,4 @@ module.exports = require("moment");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.326eba62.js.map
+//# sourceMappingURL=static.fc6d7f72.js.map
