@@ -1,10 +1,6 @@
-$primary: #BE3030;
-$bg: black;
-
-$font-family: 'IBM Plex Mono', monospace;
-
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,600&amp;subset=vietnamese');
 
+@import './vars.scss';
 @import './grid.scss';
 @import './typo.scss';
 
@@ -14,11 +10,13 @@ body {
   color: $primary;
   font-weight: 400;
   font-size: 16px;
+  margin: 0;
 }
 
 section {
   margin-top: 4rem;
   margin-bottom: 4rem;
+  overflow-x: hidden;
 }
 
 footer {
