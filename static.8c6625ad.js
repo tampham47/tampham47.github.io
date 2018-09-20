@@ -279,12 +279,12 @@ var Home = function Home(_ref) {
             'd. xaolonist'
           ),
           _react2.default.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }),
-          _react2.default.createElement('meta', { name: 'description', content: 'Pham Minh Tam - Head of front-end at Quoine - Saigon, Vietnam.' }),
-          _react2.default.createElement('meta', { name: 'keywords', content: 'Frontend Lead, Senior, Sai Gon, Viet Nam' }),
+          _react2.default.createElement('meta', { name: 'description', content: 'Pham Minh Tam - who is a scientist, an anthropologist, a psychologist, a moralist, an alchemist... i am also doing web ui on my left hand.' }),
+          _react2.default.createElement('meta', { name: 'keywords', content: 'Frontend Lead, Senior Frontend, Sai Gon, Viet Nam' }),
           _react2.default.createElement('meta', { name: 'author', content: 'Pham Minh Tam' }),
           _react2.default.createElement('meta', { property: 'og:title', content: 'd. xaolonist' }),
           _react2.default.createElement('meta', { property: 'og:description',
-            content: 'who is a scientist, an anthropologist, a psychologist, a moralist, an alchemist...' }),
+            content: 'who is a scientist, an anthropologist, a psychologist, a moralist, an alchemist... i am also doing web ui on my left hand.' }),
           _react2.default.createElement('meta', { property: 'og:image', content: '/apple-icon-180x180.png' }),
           _react2.default.createElement('link', { rel: 'apple-touch-icon', sizes: '57x57', href: '/apple-icon-57x57.png' }),
           _react2.default.createElement('link', { rel: 'apple-touch-icon', sizes: '60x60', href: '/apple-icon-60x60.png' }),
@@ -323,7 +323,7 @@ var Home = function Home(_ref) {
           _react2.default.createElement(
             'h4',
             null,
-            'who is a scientist, an anthropologist, a psychologist, a moralist, an alchemist... i am also a head of front-end team at quoine, saigon, viet\xA0nam.'
+            'who is a scientist, an anthropologist, a psychologist, a moralist, an alchemist... i am also doing web ui on my left\xA0hand.'
           ),
           _react2.default.createElement(
             'ul',
@@ -666,7 +666,7 @@ var universalOptions = {
 
 var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/Home',
-  file: '/codebuild/output/src397503153/src/github.com/tampham47/tampham47.github.io/dist/react-static-routes.js',
+  file: '/Users/xalonist/projects/xaolonist/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 5)), (0, _importCss3.default)('src/containers/Home', {
       disableWarnings: true
@@ -686,7 +686,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/404',
-  file: '/codebuild/output/src397503153/src/github.com/tampham47/tampham47.github.io/dist/react-static-routes.js',
+  file: '/Users/xalonist/projects/xaolonist/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 6)), (0, _importCss3.default)('src/containers/404', {
       disableWarnings: true
@@ -1417,4 +1417,4 @@ module.exports = require("moment");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.96de5519.js.map
+//# sourceMappingURL=static.8c6625ad.js.map
