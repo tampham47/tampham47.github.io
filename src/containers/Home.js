@@ -10,13 +10,13 @@ const Home = ({ postList }) => {
           <Head>
             <title>d. xaolonist</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-            <meta name="description" content="Pham Minh Tam - Head of front-end at Quoine - Saigon, Vietnam." />
-            <meta name="keywords" content="Frontend Lead, Senior, Sai Gon, Viet Nam" />
+            <meta name="description" content="Pham Minh Tam - who is a scientist, an anthropologist, a psychologist, a moralist, an alchemist... i am also doing web ui on my left hand." />
+            <meta name="keywords" content="Frontend Lead, Senior Frontend, Sai Gon, Viet Nam" />
             <meta name="author" content="Pham Minh Tam" />
 
             <meta property="og:title" content="d. xaolonist" />
             <meta property="og:description"
-              content="who is a scientist, an anthropologist, a psychologist, a moralist, an alchemist..." />
+              content="who is a scientist, an anthropologist, a psychologist, a moralist, an alchemist... i am also doing web ui on my left hand." />
             <meta property="og:image" content="/apple-icon-180x180.png" />
 
             <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
@@ -52,7 +52,7 @@ const Home = ({ postList }) => {
             <h4>
               who is a scientist, an anthropologist, a psychologist,
               a moralist, an alchemist...
-              i am also a head of front-end team at quoine, saigon, viet&nbsp;nam.
+              i am also doing web ui on my left&nbsp;hand.
             </h4>
             <ul>
               <li className="info">
