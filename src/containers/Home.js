@@ -78,17 +78,36 @@ const Home = ({ postList }) => {
           </section>
 
           <section className="container">
-            <h2>medium của tớ,</h2>
+            <h2>medium của tớ</h2>
             <ul className="medium">
               {postList.map(post => {
                 return (
                   <li key={post.id} className="medium--item">
-                    <a href={post.link} target="_blank" className="medium--title">{post.title}</a>,
+                    <a href={post.link} target="_blank" rel="noopener noreferrer" className="medium--title">
+                      {post.title}
+                    </a>,
                     <small className="medium--time">{moment(post.createdAt).format('MMM DD, YYYY')}</small>
                     <p className="medium--desc">{post.desc}</p>
                   </li>
                 );
               })}
+            </ul>
+          </section>
+
+          <section className="container">
+            <h2>my side projects <span role="img" aria-label="hand">👊🏽</span></h2>
+            <ul className="medium">
+              <li className="medium--item">
+                <a href="https://goingsunny.com" target="_blank" rel="noopener noreferrer" className="medium--title">Goingsunny.com</a>
+                <p className="medium--desc">
+                  this is a fan-made application for a learning english book,
+                  it’s called `hack não 1500 từ tiếng anh`.
+                  the purpose of this application is creating a tool for improving english myself,
+                  it also gives me a chance to challenging with new technologies.
+                  goingsunny is being built with ssr.
+                  source code of this app can be found <a href="https://github.com/tampham47/goingsunny-app" target="_blank" rel="noopener noreferrer">here</a>.
+                </p>
+              </li>
             </ul>
           </section>
 
