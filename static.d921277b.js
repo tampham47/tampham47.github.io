@@ -310,7 +310,7 @@ var Home = function Home(_ref) {
         ),
         _react2.default.createElement(
           'section',
-          { className: 'container' },
+          { className: 'container intro' },
           _react2.default.createElement(
             'h1',
             { className: 'xln' },
@@ -369,12 +369,12 @@ var Home = function Home(_ref) {
               _react2.default.createElement(
                 'a',
                 { href: 'https://codepen.io/tampham47', target: '_blank', rel: 'noopener noreferrer' },
-                'codepen'
+                'pen'
               ),
               _react2.default.createElement(
                 'span',
                 null,
-                ', '
+                '.'
               )
             ),
             _react2.default.createElement(
@@ -417,25 +417,25 @@ var Home = function Home(_ref) {
           ),
           _react2.default.createElement(
             'ul',
-            { className: 'medium' },
+            { className: 'article' },
             postList.map(function (post) {
               return _react2.default.createElement(
                 'li',
-                { key: post.id, className: 'medium--item' },
+                { key: post.id, className: 'article__item' },
                 _react2.default.createElement(
                   'a',
-                  { href: post.link, target: '_blank', rel: 'noopener noreferrer', className: 'medium--title' },
+                  { href: post.link, target: '_blank', rel: 'noopener noreferrer', className: 'article__title' },
                   post.title
                 ),
                 ',',
                 _react2.default.createElement(
                   'small',
-                  { className: 'medium--time' },
+                  { className: 'article__time' },
                   (0, _moment2.default)(post.createdAt).format('MMM DD, YYYY')
                 ),
                 _react2.default.createElement(
                   'p',
-                  { className: 'medium--desc' },
+                  { className: 'article__desc' },
                   post.desc
                 )
               );
@@ -457,25 +457,37 @@ var Home = function Home(_ref) {
           ),
           _react2.default.createElement(
             'ul',
-            { className: 'medium' },
+            { className: 'article' },
             _react2.default.createElement(
               'li',
-              { className: 'medium--item' },
+              { className: 'article__item' },
               _react2.default.createElement(
                 'a',
-                { href: 'https://goingsunny.com', target: '_blank', rel: 'noopener noreferrer', className: 'medium--title' },
+                { href: 'https://goingsunny.com', target: '_blank', rel: 'noopener noreferrer', className: 'article__title' },
                 'Goingsunny.com'
               ),
               _react2.default.createElement(
                 'p',
-                { className: 'medium--desc' },
-                'this is a fan-made application for a learning english book, it\u2019s called `hack n\xE3o 1500 t\u1EEB ti\u1EBFng anh`. the purpose of this application is creating a tool for improving english myself, it also gives me a chance to challenging with new technologies. goingsunny is being built with ssr. source code of this app can be found ',
+                { className: 'article__desc' },
+                'this is a fan-made application for a learning english book, it\u2019s called `hack n\xE3o 1500 t\u1EEB ti\u1EBFng anh`.',
+                _react2.default.createElement('input', { id: 'p-goingsunny', type: 'checkbox', className: 'article__checkbox' }),
                 _react2.default.createElement(
-                  'a',
-                  { href: 'https://github.com/tampham47/goingsunny-app', target: '_blank', rel: 'noopener noreferrer' },
-                  'here'
+                  'label',
+                  { htmlFor: 'p-goingsunny', className: 'article__label x-underline' },
+                  'see more~'
                 ),
-                '.'
+                _react2.default.createElement(
+                  'span',
+                  { className: 'article__more' },
+                  'the purpose of this application is creating a tool for improving english myself, it also gives me a chance to challenging with new technologies. goingsunny is being built with ssr. source code of this app can be found\xA0',
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'https://github.com/tampham47/goingsunny-app',
+                      target: '_blank', rel: 'noopener noreferrer', className: 'x-underline' },
+                    'here'
+                  ),
+                  '.'
+                )
               )
             )
           )
@@ -704,7 +716,7 @@ var universalOptions = {
 
 var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/Home',
-  file: '/codebuild/output/src653427524/src/github.com/tampham47/tampham47.github.io/dist/react-static-routes.js',
+  file: '/Users/xalonist/projects/xaolonist/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 5)), (0, _importCss3.default)('src/containers/Home', {
       disableWarnings: true
@@ -724,7 +736,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/404',
-  file: '/codebuild/output/src653427524/src/github.com/tampham47/tampham47.github.io/dist/react-static-routes.js',
+  file: '/Users/xalonist/projects/xaolonist/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 6)), (0, _importCss3.default)('src/containers/404', {
       disableWarnings: true
@@ -1455,4 +1467,4 @@ module.exports = require("moment");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.ad6d3101.js.map
+//# sourceMappingURL=static.d921277b.js.map
