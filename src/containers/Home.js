@@ -45,7 +45,7 @@ const Home = ({ postList }) => {
             <link rel="manifest" href="/manifest.json" />
           </Head>
 
-          <section className="container">
+          <section className="container intro">
             <h1 className="xln">
               <div>d. xaolonist</div>
             </h1>
@@ -63,8 +63,8 @@ const Home = ({ postList }) => {
                 <span>, </span>
                 <a href="https://github.com/tampham47" target="_blank" rel="noopener noreferrer">github</a>
                 <span>, </span>
-                <a href="https://codepen.io/tampham47" target="_blank" rel="noopener noreferrer">codepen</a>
-                <span>, </span>
+                <a href="https://codepen.io/tampham47" target="_blank" rel="noopener noreferrer">pen</a>
+                <span>.</span>
               </li>
               <li>
                 <span role="img" aria-label="mail">💌</span>
@@ -79,15 +79,15 @@ const Home = ({ postList }) => {
 
           <section className="container">
             <h2>medium của tớ</h2>
-            <ul className="medium">
+            <ul className="article">
               {postList.map(post => {
                 return (
-                  <li key={post.id} className="medium--item">
-                    <a href={post.link} target="_blank" rel="noopener noreferrer" className="medium--title">
+                  <li key={post.id} className="article__item">
+                    <a href={post.link} target="_blank" rel="noopener noreferrer" className="article__title">
                       {post.title}
                     </a>,
-                    <small className="medium--time">{moment(post.createdAt).format('MMM DD, YYYY')}</small>
-                    <p className="medium--desc">{post.desc}</p>
+                    <small className="article__time">{moment(post.createdAt).format('MMM DD, YYYY')}</small>
+                    <p className="article__desc">{post.desc}</p>
                   </li>
                 );
               })}
@@ -96,16 +96,25 @@ const Home = ({ postList }) => {
 
           <section className="container">
             <h2>my side projects <span role="img" aria-label="hand">👊🏽</span></h2>
-            <ul className="medium">
-              <li className="medium--item">
-                <a href="https://goingsunny.com" target="_blank" rel="noopener noreferrer" className="medium--title">Goingsunny.com</a>
-                <p className="medium--desc">
+            <ul className="article">
+              <li className="article__item">
+                <a href="https://goingsunny.com" target="_blank" rel="noopener noreferrer" className="article__title">Goingsunny.com</a>
+                <p className="article__desc">
                   this is a fan-made application for a learning english book,
                   it’s called `hack não 1500 từ tiếng anh`.
-                  the purpose of this application is creating a tool for improving english myself,
-                  it also gives me a chance to challenging with new technologies.
-                  goingsunny is being built with ssr.
-                  source code of this app can be found <a href="https://github.com/tampham47/goingsunny-app" target="_blank" rel="noopener noreferrer">here</a>.
+                  <input id="p-goingsunny" type="checkbox" className="article__checkbox" />
+                  <label htmlFor="p-goingsunny" className="article__label x-underline">
+                    see more~
+                  </label>
+                  <span className="article__more">
+                    the purpose of this application is creating a tool for improving english myself,
+                    it also gives me a chance to challenging with new technologies.
+                    goingsunny is being built with ssr. source code of this app can be found&nbsp;
+                    <a href="https://github.com/tampham47/goingsunny-app"
+                      target="_blank" rel="noopener noreferrer" className="x-underline">
+                      here
+                    </a>.
+                  </span>
                 </p>
               </li>
             </ul>
