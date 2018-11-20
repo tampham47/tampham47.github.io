@@ -47,13 +47,8 @@ const Home = ({ postList }) => {
 
           <section className="container intro">
             <h1 className="xln">
-              <div>d. xaolonist</div>
+              <div>Phạm Minh Tâm</div>
             </h1>
-            <h4>
-              who is a scientist, an anthropologist, a psychologist,
-              a moralist, an alchemist...
-              i am also doing web ui on my left&nbsp;hand.
-            </h4>
             <ul>
               <li className="info">
                 <span role="img" aria-label="pineapple">🍍</span>
@@ -74,66 +69,48 @@ const Home = ({ postList }) => {
                 <span role="img" aria-label="phone">🤙🏿</span>
                 <a href="tel:01643652922">01643-652-922</a>
               </li>
-              <li>
-                <span role="img" aria-label="the book of life">🌳</span>
-                <a href="/course-of-life">course of life</a>
-              </li>
             </ul>
           </section>
 
           <section className="container">
-            <h2>medium của tớ</h2>
-            <ul className="article">
-              {postList.map(post => {
-                return (
-                  <li key={post.id} className="article__item">
-                    <a href={post.link} target="_blank" rel="noopener noreferrer" className="article__title">
-                      {post.title}
-                    </a>,
-                    <small className="article__time">{moment(post.createdAt).format('MMM DD, YYYY')}</small>
-                    <p className="article__desc">{post.desc}</p>
-                  </li>
-                );
-              })}
-            </ul>
-          </section>
+            <h2>working experiences</h2>
+            <p>
+              my familiarities include html5, css3, javascript, react, nodejs, and mongodb.
+              i try to make fast websites. i speak vietnamese (first language, fluently)
+              and english (professional level). i work well under pressure.
+            </p>
 
-          <section className="container">
-            <h2>my side projects <span role="img" aria-label="hand">👊🏽</span></h2>
             <ul className="article">
               <li className="article__item">
-                <a href="https://goingsunny.com" target="_blank" rel="noopener noreferrer" className="article__title">Goingsunny.com</a>
+                <h3 className="article__title">
+                  Quoine,
+                  <small className="article__time">
+                    Apr 2017 – present
+                  </small>
+                </h3>
                 <p className="article__desc">
-                  this is a fan-made application for a learning english book,
-                  it’s called `hack não 1500 từ tiếng anh`.
-                  <input id="p-goingsunny" type="checkbox" className="article__checkbox" />
-                  <label htmlFor="p-goingsunny" className="article__label x-underline">
-                    see more~
-                  </label>
-                  <span className="article__more">
-                    the purpose of this application is creating a tool for improving english myself,
-                    it also gives me a chance to challenging with new technologies.
-                    goingsunny is being built with ssr. source code of this app can be found&nbsp;
-                    <a href="https://github.com/tampham47/goingsunny-app"
-                      target="_blank" rel="noopener noreferrer" className="x-underline">
-                      here
-                    </a>.
-                  </span>
+                  Quoine has been growing exponentially. When I first joined,
+                  the Front-end team had 3 members only. Now we are 12 members strong,
+                  half of which I interviewed. I was ruined that team while
+                  I am in head of frontend position.
                 </p>
+
+                <h4>Senior Front-end Engineer, MKT Tech (Oct 2018 - present)</h4>
+                <p>
+                  Focusing on marketing technology.
+                  Working with third parties such as Hubspot to leverage productivity.
+                  Making fast and beautiful websites.
+                </p>
+
+                <h4>Head of Front-end (Apr 2018 - Sep 2018)</h4>
+                <p>Released Liquid, a new trading platform that is the combination of Quoinex and Qryptos. In particular, the front-end side of Liquid is the fruit of labor from the cross-border efforts of Quoine Front-end team, based half in Vietnam and half in Japan.</p>
+                <p>Liquid landing page is built with JAMstack technologies (https://jamstack.org) that is designed for SEO and of which I am a fan. As a result, the landing page scores over 80 points by Google search engine a few months after launching.</p>
+
+                <h4>Frontend Engineer (Apr 2017 - Mar 2018)</h4>
+                <p>Helped build the Quoinex platform from scratch and gained in-depth understanding about multiple functionalities of the existing platforms. Worked with React, Redux, and isolated CSS components.</p>
               </li>
             </ul>
           </section>
-
-          <footer className="container">
-            <span role="img" aria-label="cat - github">😽</span>
-            <a href="https://github.com/tampham47/tampham47.github.io" target="_blank" rel="noopener noreferrer">
-              created by `react-static`
-            </a>
-            <span>, </span>
-            <span className="built-desc">
-              the latest build is on {moment(lastBuilt).format('MMM DD, h:mm:ss a').toLowerCase()}.
-            </span>
-          </footer>
         </main>
       )}
     </SiteData>

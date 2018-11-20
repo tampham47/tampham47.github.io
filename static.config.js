@@ -30,6 +30,11 @@ export default {
         getData: () => ({ postList }),
       },
       {
+        path: '/course-of-life',
+        component: 'src/containers/CourseOfLife',
+        getData: () => ({ postList }),
+      },
+      {
         is404: true,
         component: 'src/containers/404',
       },
