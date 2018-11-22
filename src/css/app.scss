@@ -18,6 +18,10 @@ section {
   overflow: hidden;
 }
 
+p {
+  opacity: 0.6;
+}
+
 @media (min-width: 64em) {
   section {
     margin-bottom: 2em;

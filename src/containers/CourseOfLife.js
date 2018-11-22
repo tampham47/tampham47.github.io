@@ -82,12 +82,12 @@ const Home = ({ postList }) => {
 
             <ul className="article">
               <li className="article__item">
-                <h3 className="article__title">
-                  Quoine,
+                <h2 className="article__title">
+                  <span role="img" aria-label="chart">💹</span> Quoine,
                   <small className="article__time">
                     Apr 2017 – present
                   </small>
-                </h3>
+                </h2>
                 <p className="article__desc">
                   Quoine has been growing exponentially. When I first joined,
                   the Front-end team had 3 members only. Now we are 12 members strong,
@@ -108,6 +108,55 @@ const Home = ({ postList }) => {
 
                 <h4>Frontend Engineer (Apr 2017 - Mar 2018)</h4>
                 <p>Helped build the Quoinex platform from scratch and gained in-depth understanding about multiple functionalities of the existing platforms. Worked with React, Redux, and isolated CSS components.</p>
+              </li>
+
+              <li className="article__item">
+                <h2 className="article__title">
+                  <span role="img" aria-label="coffee">☕</span> Naustudio
+                  <small className="article__time">
+                    Apr 2015 – Apr 2017
+                  </small>
+                </h2>
+                <p className="article__desc">
+                  I have learned much from Naustudio’s CTO, Mr. Tran Trong Thanh. In particular, how to skeleton HTML structure and style CSS for easy maintenance. Friday sharing weekly is a tradition at Naustudio where we share and connect. Here, we grow the same way we build our products.
+                </p>
+                <p>Notable projects that I worked on at Naustudio include Greenbot and Recpic.</p>
+
+                <h4>Greenbot</h4>
+                <p>A combination of biology and IT, the project uses IOT to grow hydroponic vegetables. Apart from being the main JS developer, I also helped transform the design into the application layout. The project provided good experience with MQTT and Strong-loop.</p>
+
+                <h4>Recpic</h4>
+                <p>Recpic is a Korean startup project that helps manage expenses by capturing receipts. It was handed over from another agency and developed with Angular. I built several new features and maintained the existing application. Eventually due to political changes, the project was no longer supported by the government.</p>
+              </li>
+
+              <li className="article__item">
+                <h2 className="article__title">
+                  <span role="img" aria-label="network">🕸️</span> Sutrix Solutions
+                  <small className="article__time">
+                    Sep 2014 – Apr 2015
+                  </small>
+                </h2>
+                <p className="article__desc">
+                  The most notable project in this period is Wequit, a social network about quitting smoking. The project extended over 8 months during which I was the main JS developer. We used PhoneGap, the outstanding tool at the time, to build a cross-platform application (iOS and Android) for this social network. Managing big source code with Angular 1.0 and great animations are what I learned from this project.
+                </p>
+              </li>
+
+              <li className="article__item">
+                <h2 className="article__title">
+                  <span role="img" aria-label="pineapple">🍍</span> Behind the scene
+                </h2>
+                <p>I graduated in mid 2014 from University of Information Technology (UIT).</p>
+                <p>I go to the gym in my spare time. I write about surrounding things in my life.</p>
+
+                <p>I also contribute to several open-source projects.</p>
+                <h4>Jukebox</h4>
+                <p>A music sharing application to be used at work. The app remains in use at Naustudio where people can book the song they want to listen and a host will play them in order. It was built with Meteor, with realtime as default.</p>
+                <p>Source: https://github.com/naustudio/nau-jukebox</p>
+
+
+                <h4>Goingsunny</h4>
+                <p>A fanmade application for my favorite English book, “Hack Não - 1500 Từ Tiếng Anh” which is designed to help learners improve English vocabularies. I am building it with react-starter-kit, with the boilerplate focusing on server-side rendering.</p>
+                <p>Source: https://github.com/tampham47/goingsunny-app</p>
               </li>
             </ul>
           </section>
