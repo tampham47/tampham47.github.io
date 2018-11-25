@@ -72,11 +72,11 @@ const Home = ({ postList }) => {
               </li>
               <li>
                 <span role="img" aria-label="phone">🤙🏿</span>
-                <a href="tel:01643652922">01643-652-922</a>
+                <a href="tel:+84343652922">+84343-652-922</a>
               </li>
               <li>
                 <span role="img" aria-label="the book of life">🌳</span>
-                <a href="/course-of-life">course of life</a>
+                <a href="/course-of-life">course-of-life</a>
               </li>
             </ul>
           </section>
