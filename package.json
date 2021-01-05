@@ -12,7 +12,7 @@
     "serve": "serve dist -p 3000"
   },
   "dependencies": {
-    "axios": "^0.16.2",
+    "axios": "^0.21.1",
     "dotenv": "^6.0.0",
     "moment": "^2.22.1",
     "react": "^16.0.0",
